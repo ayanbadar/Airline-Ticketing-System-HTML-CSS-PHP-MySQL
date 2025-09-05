@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" href="assets/favicon1.png" sizes="32x32" />
+    <title>AA Airlines</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__logo">AA Airlines</div>
+        <ul class="nav__links">
+            <li class="link"><a href="/index.html">Home</a></li>
+            <li class="link"><a href="/flights.html">Flight Status</a></li>
+            <li class="link"><a href="/book.html">Book</a></li>
+            <li class="link"><a href="/manage.html">Manage Booking</a></li>
+            <li class="link"><a href="/about.html">About</a></li>
+        </ul>
+        <button class="btn"><a href="/contact.html">Contact</a></button>
+    </nav>
+
+    <div class="form__box">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="gender" class="form-label">Credit Card Type</label>
+                <select id="gender" class="form-select" v required>
+                    <option selected>Choose...</option>
+                    <option>Visa</option>
+                    <option>Master</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="chname" class="form-label">Card Holder Name</label>
+                <input type="text" class="form-control" id="chname" required>
+            </div>
+            <div class="col-md-6">
+                <label for="cnumber" class="form-label">Card Number</label>
+                <input type="text" class="form-control" id="cnumber" required>
+            </div>
+            <div class="col-md-6">
+                <label for="dob" class="form-label">Expiration Date</label>
+                <input type="date" class="form-control" id="dob" required>
+            </div>
+            <div class="col-md-6">
+                <label for="cvv" class="form-label">CVV</label>
+                <input type="text" class="form-control" id="cvv" required>
+            </div>
+            <div class="col-md-6">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" required>
+            </div>
+            <div class="col-md-6">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" id="city" required>
+            </div>
+            <div class="col-md-6">
+                <label for="country" class="form-label">Country</label>
+                <select id="country" class="form-select" required>
+                    <option selected>Choose...</option>
+                    <option>Pakistan</option>
+                    <option>Saudia Arabia</option>
+                    <option>China</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="pcode" class="form-label">Postal Code</label>
+                <input type="text" class="form-control" id="pcode" required>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">I agreed Terms and Conditions</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary"><a href="/confirmation.html">Pay Now</a></button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h3>AA Airlines</h3>
+                <p>
+                    Where Excellence Takes Flight. With a strong commitment to customer
+                    satisfaction and a passion for air travel, AA Airlines offers
+                    exceptional service and seamless journeys.
+                </p>
+                <p>
+                    From friendly smiles to state-of-the-art aircraft, we connect the
+                    world, ensuring safe, comfortable, and unforgettable experiences.
+                </p>
+            </div>
+            <div class="footer__col">
+                <h4>INFORMATION</h4>
+                <p>Home</p>
+                <p>About</p>
+                <p>Book</p>
+                <p>Flights</p>
+            </div>
+            <div class="footer__col">
+                <h4>CONTACT</h4>
+                <p>Support</p>
+                <p>Media</p>
+                <p>Socials</p>
+            </div>
+        </div>
+        <div class="section__container footer__bar">
+            <p>Copyright © 2023 AA Airlines. All rights reserved.</p>
+            <div class="socials">
+                <span><i class="ri-facebook-fill"><a href="#"></a></i></span>
+                <span><i class="ri-twitter-fill"></i></span>
+                <span><i class="ri-instagram-line"></i></span>
+                <span><i class="ri-youtube-fill"></i></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
